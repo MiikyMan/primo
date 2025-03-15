@@ -74,6 +74,8 @@ function reversedCollection(collection: number[]): number[] {
   return reversedCollection;
 }
 
+console.log("merge([1, 2, 3], [4, 5, 6], [7, 8, 9])", merge([1, 2, 3], [4, 5, 6], [7, 8, 9]));
+
 // given
 //      collection_1, collection_2 already sorted from min(0) to max
 //      collection_3  already sorted from max to min(0)
